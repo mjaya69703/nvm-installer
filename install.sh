@@ -57,7 +57,8 @@ echo "Installation completed!"
 echo "Current Node.js version:"
 node -v
 
-# Add sourcing .bashrc
-echo "Reloading shell configuration..."
-source ~/.bashrc
+echo -e "\nTo start using NVM and Node.js in current session, please run:"
+echo "source ~/.bashrc"
+
+
 
