@@ -56,3 +56,8 @@ esac
 echo "Installation completed!"
 echo "Current Node.js version:"
 node -v
+
+# Add sourcing .bashrc
+echo "Reloading shell configuration..."
+source ~/.bashrc
+
